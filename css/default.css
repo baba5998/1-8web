@@ -41,11 +41,11 @@ body{
 }
      
      .breadcrumbs li {
-            display:inline;
-            list-style-type:none;
+            display: inline;
+            list-style-type: none;
      }
      .breadcrumbs li :before{
-            content:">";
+            content: " > ";
       }
       .breadcrumbs li :first-child:before{
              content:"";
