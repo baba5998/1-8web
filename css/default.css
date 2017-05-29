@@ -18,6 +18,12 @@ body{
   color:black;
 }
 
+#gnav a.selected{
+ background: white;
+  color: darkgreem;
+  font-weight: bold;
+}
+
 #gnav li{
   overflow:hidden;
 }
