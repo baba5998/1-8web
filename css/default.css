@@ -50,13 +50,15 @@ body{
   border-left:white 1px solid;
 }
      
-     .breadcrumbs li {
-            display: inline;
-            list-style-type: none;
-     }
-     .breadcrumbs li :before{
-            content: " > ";
-      }
-      .breadcrumbs li :first-child:before{
-             content:"";
-      }
+.breadcrumbs li {
+  display: inline;
+  list-style-type: none;
+}
+
+.breadcrumbs li :before {
+  content: " > ";
+}
+
+.breadcrumbs li :first-child:before {
+  content:"";
+}
